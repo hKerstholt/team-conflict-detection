@@ -1,0 +1,10 @@
+[project]
+name = "team-conflict-detection"
+version = "1.0.0"
+description = "LLM-based conflict detection in team collaboration"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "openai>=2.21.0",
+    "streamlit>=1.54.0",
+]
