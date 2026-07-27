@@ -1,5 +1,13 @@
 # Team conflict detection
 
+Usage instructions for the tool are described below under *Getting Started*.
+
+## Introduction
+
+The aim of this project is to reliably detect and mediate conflict in collaborative team settings.
+
+The primary interface is a chat-like GUI where conversation transcripts can be provided and messages can be added to the conversation. On each received message, the application integrates the new message and the full conversation transcript with domain knowledge, instructions, previously collected questionnaire results, etc. to build an informed and relevant prompt, which is then sent to an LLM backend (currently ChatGPT). The response is displayed to the user in order to mediate the conflict if necessary.
+
 ## Getting started
 
 ### Install Docker Desktop
@@ -49,3 +57,16 @@ If you want, you can watch the directory for changes and automatically restart t
 ### Visual Studio Code
 
 You can run Docker Compose configuration files directly from Visual Studio Code with the official Docker extension. To do this, right click on `docker-compose.yml` and select **Compose Up**.
+
+## Acknowledgements and attribution
+
+This repository contains the software used for a research project for which a paper was submitted for publication at SMAP 2026. You are welcome to use or modify this project as needed. If you decide to do so, please cite our forthcoming paper.
+
+Contributors:
+* Heleen Kerstholt
+* Angie Dong
+* Ioanna Lykourentzou
+
+## License
+
+The code in this repository is published under the _Apache 2.0_ open source license, see `LICENSE`.
