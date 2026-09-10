@@ -62,10 +62,14 @@ You can run Docker Compose configuration files directly from Visual Studio Code 
 
 This repository contains the software used for a research project for which a paper was submitted for publication at SMAP 2026. You are welcome to use or modify this project as needed. If you decide to do so, please cite our forthcoming paper.
 
-Contributors:
+Contributors to code:
 * Heleen Kerstholt
 * Angie Dong
+
+Additional contributors to the paper: 
 * Ioanna Lykourentzou
+* Catarina M. Santos
+* Isaac Alpizar-Chacon
 
 ## License
 
